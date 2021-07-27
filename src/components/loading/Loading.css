@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------------ */
+/* a. Loading
+/* ------------------------------------------------------------------ */
+.loading {
+    width: 100vw;
+    height: 100vh;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: var(--dark-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-loading p {
+    font-size: 100px;
+    color: var(--light-green);
+}
+
+@media only screen and (max-width: 768px){
+    .inner-loading p {
+        font-size: 20px;
+    }
+}

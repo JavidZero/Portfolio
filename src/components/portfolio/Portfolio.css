@@ -1,0 +1,14 @@
+.portfolio {
+    width: 100%;
+    background-color: var(--light-gray);
+    padding-bottom: 30px;
+    padding-top: 50px;
+    border-top: 20px solid var(--dark-black);
+}
+
+.portfolio-wrapper {
+    max-width: 1440px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}

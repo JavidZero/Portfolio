@@ -1,0 +1,177 @@
+/* ------------------------------------------------------------------ */
+/* Navigation Styles
+/* ------------------------------------------------------------------ */
+
+.nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-black);
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: 50px;
+    max-width: 1440px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-logo {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-logo h4 {
+    color: var(--light-green);
+    font-size: 22px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.nav-list li a {
+    font-size: 16px;
+    color: var(--default-text);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.nav-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .nav {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 200;
+    }
+
+    .nav-logo {
+        position: relative;
+        z-index: 250;
+    }
+
+    .nav-menu {
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--light-green);
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav-menu > div, .nav-menu > div::before , .nav-menu > div::after {
+        content: "";
+        width: 20px;
+        height: 1px;
+        background-color: var(--light-green);
+        position: relative;
+    }
+
+    .nav-menu > div::before {
+        position: absolute;
+        top: 5px;
+    }
+
+    .nav-menu > div::after {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        width: 100%;
+        min-height: 100vh;
+        background-color: var(--dark-black);
+
+        flex-direction: column;
+        align-items: center;
+
+        opacity: 0;
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+
+    .nav-list li {
+        width: 64px;
+    }
+
+    .nav-list.show {
+        width: 100%;
+        opacity: 1;
+        transform: scaleX(1);
+        transition: .3s ease-in-out;
+        z-index: 200;
+    }
+
+    .nav-close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--light-green);
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .nav-close > div {
+        position: relative;
+        width: 20px;
+    }
+
+    .nav-close >div::before, .nav-close > div::after {
+        content: '';
+        width: 20px;
+        height: 1px;
+        background-color: var(--light-green);
+        display: inline-block;
+        position: absolute;
+        left: 0;
+    }
+
+    .nav-close > div::before {
+        transform: rotateZ(45deg);
+    }
+
+    .nav-close > div::after {
+        transform: rotateZ(-45deg);
+    }
+
+    .resume-button {
+        padding: 4px 8px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: var(--light-green);
+        color: var(--dark-black);
+        border: 1px solid var(--light-green);
+        cursor: pointer;
+        width: 80px !important;
+        border-radius: 4px;
+    }
+
+    .resume-button a {
+        color: inherit !important;
+    }
+}

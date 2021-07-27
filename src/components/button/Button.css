@@ -1,0 +1,37 @@
+.btn {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn--primary {
+    background-color: var(--light-green);
+    color: var(--dark-black);
+    border: 1px solid var(--light-green);
+}
+
+.btn--outline {
+    border: 1px solid var(--dark-green);
+    background-color: transparent;
+    color: var(--light-green);
+    transition: .3s ease-in-out;
+}
+
+.btn--outline:hover {
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.btn--medium {
+    padding: 4px 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn--large {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.btn a {
+    color: inherit !important;
+}

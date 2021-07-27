@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------------ */
+/* Banner Styles
+/* ------------------------------------------------------------------ */
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-wrapper {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner-wrapper h1 {
+    margin-bottom: 10px;
+}
+
+.banner-wrapper p {
+    margin-bottom: 20px;
+}

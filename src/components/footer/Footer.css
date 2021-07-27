@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    padding: 30px 0 30px 0;
+    background-color: var(--dark-black);
+    color: gray;
+}
+
+.footer-inner {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-inner p span {
+    color: var(--light-gray);
+}

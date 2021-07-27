@@ -1,0 +1,112 @@
+.contact {
+    background-color: #12141a;
+    padding: 50px 0 30px 0;
+}
+
+.contact-inner {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+}
+
+.contact .title h1{
+    color: white;
+}
+
+.contact .title h1::after{
+    background-color: white !important;
+}
+
+.contact-container {
+    display: flex;
+    gap: 50px;
+
+}
+
+form {
+    flex: .7;
+}
+
+.fieldset {
+    border: none;
+}
+
+.fieldset div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.fieldset div label {
+    width: 110px;
+    font-size: 18px;
+}
+
+.required {
+    color: var(--light-green);
+}
+
+.fieldset div input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: var(--dark-blue);
+}
+
+.fieldset div textarea {
+    background-color: var(--dark-blue);
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.fieldset div input:focus, .fieldset div textarea:focus {
+    background-color: var(--light-green);
+}
+
+.fieldset button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--light-green);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 120px;
+}
+
+.aside-info h3 {
+    margin-bottom: 10px;
+}
+
+.aside-info a, .aside-info p {
+    color: var(--light-gray);
+}
+
+
+@media only screen and (max-width: 978px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .fieldset div {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .fieldset button {
+        margin-left: 0px;
+    }
+}

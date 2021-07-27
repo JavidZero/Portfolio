@@ -288,68 +288,6 @@
         "portfolio": {
             "categories":[
                 {
-                    "id": 3,
-                    "title": "Real Life Work",
-                    "info": "",
-                    "projectslist": [
-                        {
-                            "id": 1,
-                            "title": "Road Company",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/road-company.jpg",
-                            "url": "https://qarantstroy.ru"
-                        },
-                        {
-                            "id": 2,
-                            "title": "KreTravel",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/kretravel.jpg",
-                            "url": "https://kretravel.az"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "Clone Projects",
-                    "info": "",
-                    "projectslist": [
-                        {
-                            "id": 1,
-                            "title": "Netflix Clone",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/netflix-clone.jpg",
-                            "url": "https://netflix-clone-by-javid.netlify.app/"
-                        },
-                        {
-                            "id": 2,
-                            "title": "Gmail Clone",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/gmail-clone.jpg",
-                            "url": "https://gmail-clone-phi.vercel.app/"
-                        },
-                        {
-                            "id": 3,
-                            "title": "Whatsapp Clone",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/whatsapp-clone.jpg",
-                            "url": "https://whatsapp-clone-murex-nu.vercel.app/"
-                        },
-                        {
-                            "id": 4,
-                            "title": "Twitter Clone",
-                            "finished": true,
-                            "category": "",
-                            "image": "images/twitter-clone.jpg",
-                            "url": "https://twitter-clone-rouge-tau.vercel.app/"
-                        }
-                    ]
-                },
-                {
                     "id": 1,
                     "title": "Front End Mentor Challenges",
                     "info":"",
@@ -628,6 +566,68 @@
                         }
 
                     ] 
+                },
+                {
+                    "id": 2,
+                    "title": "Clone Projects",
+                    "info": "",
+                    "projectslist": [
+                        {
+                            "id": 1,
+                            "title": "Netflix Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/netflix-clone.jpg",
+                            "url": "https://netflix-clone-by-javid.netlify.app/"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Gmail Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/gmail-clone.jpg",
+                            "url": "https://gmail-clone-phi.vercel.app/"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Whatsapp Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/whatsapp-clone.jpg",
+                            "url": "https://whatsapp-clone-murex-nu.vercel.app/"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Twitter Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/twitter-clone.jpg",
+                            "url": "https://twitter-clone-rouge-tau.vercel.app/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Real Life Work",
+                    "info": "",
+                    "projectslist": [
+                        {
+                            "id": 1,
+                            "title": "Road Company",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/road-company.jpg",
+                            "url": "https://qarantstroy.ru"
+                        },
+                        {
+                            "id": 2,
+                            "title": "KreTravel",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/kretravel.jpg",
+                            "url": "https://kretravel.az"
+                        }
+                    ]
                 }   
             ]
         }

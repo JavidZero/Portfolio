@@ -10,7 +10,7 @@ function Project({project}) {
           className="project"
         >
           <div className="project-image">
-            <img src={`${process.env.PUBLIC_URL}/${project.image}`} alt=""/>
+            <img src={`${process.env.PUBLIC_URL}${project.image}`} alt=""/>
           </div>
           <div className="project-info">
             <a href={project.url} target="_blank" rel="noreferrer">

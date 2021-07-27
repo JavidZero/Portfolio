@@ -8,7 +8,7 @@ function Project({project}) {
       <div className="project-main">
         <div
           className="project"
-          style={{ backgroundImage: `url(/${window.location.origin+project.image})` }}
+          style={{ backgroundImage: `url({window.location.origin}/${project.image})` }}
         >
           <div className="project-info">
             <a href={project.url} target="_blank" rel="noreferrer">

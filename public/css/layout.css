@@ -1,0 +1,80 @@
+/*=====================================================================
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+:root {
+    --dark-black: #0B0C10;
+    --dark-blue: #1f2833;
+    --light-gray: #C5C6C7;
+    --light-green: #66FCF1;
+    --dark-green: #45A29E;
+    --default-text: #fff;
+}
+
+body {
+    color: white;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper-container {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.title h1, .title h2 {
+    color: var(--dark-blue);
+    display: inline-block;
+    position: relative;
+}
+
+.title h1::after, .title h2::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark-blue);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+}
+
+.title h2 {
+    margin-top: 30px;
+}
+
+.elements-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    column-gap: 30px;
+    align-items: flex-start;
+}
+
+.see-more {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.see-more button {
+    color: var(--dark-green);
+    border: none;
+    background-color: transparent;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Header Styles
+/* ------------------------------------------------------------------ */

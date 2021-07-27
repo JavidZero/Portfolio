@@ -1,0 +1,635 @@
+{
+    "az": {
+        "main": {
+            "name": "Javid Alizada",
+            "occupation": "Web Development Learner",
+            "description": "",
+            "image": "",
+            "bio": "",
+            "contactmessage": "",
+            "email": "",
+            "phone": "",
+            "address": {
+                "city": "",
+                "country": "",
+                "state": "",
+                "zip": ""
+            },
+            "website": "http://javidalizada.tech",
+            "resumedownload": "",
+            "social": [
+                {
+                    "id": 1,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                },
+                {
+                    "id": 2,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                },
+                {
+                    "id": 3,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                }
+            ]
+        },
+    
+        "resume": {
+            "skillmessage": "My Programming Language Proficiency",
+            "education": [
+                {
+                    "school": "",
+                    "degree": "",
+                    "graduated": "",
+                    "descriprion": ""
+                }
+            ],
+            "work": [
+                {
+                    "company": "",
+                    "title": "",
+                    "years": "",
+                    "description": ""
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                },
+                {
+                    "name": "",
+                    "level": ""
+                }
+            ]
+        },
+    
+        "portfolio": {
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "FrontEndMentor Challenges",
+                    "projectslist": [
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Clone Projects",
+                    "projectslist": [
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        },
+                        {
+                            "title": "",
+                            "category": "",
+                            "image": "",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        }    
+    },
+
+    "eng": {
+        "menu":[
+            {
+                "id": 1,
+                "name": "home",
+                "link": ""
+            },
+            {
+                "id": 3,
+                "name": "resume",
+                "link": "resume"
+            },
+            {
+                "id": 4,
+                "name": "portfolio",
+                "link": "portfolio"
+            },
+            {
+                "id": 5,
+                "name": "contact",
+                "link": "contact"
+            }
+            
+        ],
+        
+        "main":{
+            "name": "Javid Alizada",
+            "occupation": "Web Development Learner",
+            "description": "",
+            "image": "",
+            "bio": "",
+            "contactmessage": "",
+            "email": "javid.alizada92@gmail.com",
+            "phone": "+994558425425",
+            "address": {
+                "city": "",
+                "country": "",
+                "state": "",
+                "zip": ""
+            },
+            "website": "http://javidalizada.tech",
+            "resumedownload": "",
+            "social": [
+                {
+                    "id": 1,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                },
+                {
+                    "id": 2,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                },
+                {
+                    "id": 3,
+                    "name": "",
+                    "url": "",
+                    "className": ""
+                }
+                
+            ]
+        },
+    
+        "resume": {
+            "skillmessage": "My Programming Language Proficiency",
+            "education": [
+                {
+                    "id":1,
+                    "school": "Qafqaz University - Azerbaijan, Baku",
+                    "degree": "Bachelor's Degree, Computer Science",
+                    "graduated": "July 2014",
+                    "description": "Graduated with good grades"
+                }
+            ],
+            "work": [
+                {   
+                    "id":1, 
+                    "company": "RBDS Tourism",
+                    "title": "Revervation Manager",
+                    "years": "December 2017 - November 2018",
+                    "description": "Reserving hotels and planning trips for foreign guests"
+                },
+                {
+                    "id": 2,
+                    "company": "Azerbaijan Capital",
+                    "title": "Reservation Manager",
+                    "years": "June 2019 - March 2020",
+                    "description": "Reserving hotels and planning trips for foreign guests"
+                }
+            ],
+            "skills": [
+                {
+                    "name": "HTML",
+                    "level": "70%"
+                },
+                {
+                    "name": "CSS",
+                    "level": "70%"
+                },
+                {
+                    "name": "Javascript",
+                    "level": "60%"
+                },
+                {
+                    "name": "React JS",
+                    "level": "55%"
+                }
+            ],
+            "languages": [
+                {
+                    "name": "Azerbaijani",
+                    "level": "99%"
+                },
+                {
+                    "name": "English",
+                    "level": "90%"
+                },
+                {
+                    "name": "Russian",
+                    "level": "50%"
+                },
+                {
+                    "name": "Turkish",
+                    "level": "90%"
+                }
+            ]
+        },
+    
+        "portfolio": {
+            "categories":[
+                {
+                    "id": 1,
+                    "title": "Front End Mentor Challenges",
+                    "info":"",
+                    "projectslist":[
+                        {   
+                            "id": 1,
+                            "title": "Profile Card Component",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/profile-card-component.jpg",
+                            "url": "https://profile-card-component-design.netlify.app/"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Faq Accordion Card",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/faq-accordion-card.jpg",
+                            "url": "https://faq-accordion-card-design.netlify.app/"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Social Proof Section",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/social-proof-section.jpg",
+                            "url": "https://social-proof-section-design.netlify.app/"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Article Preview Component",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/article-preview-component.jpg",
+                            "url": "https://article-preview-component-design.netlify.app/"
+                        },
+                        {
+                            "id": 5,
+                            "title": "Coding Bootcamp Testimonial",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/coding-bootcamp-testimonial.jpg",
+                            "url": "https://coding-bootcamp-testimonial-design.netlify.app/"
+                        },
+                        {
+                          "id": 6,
+                          "title": "Four Card Features",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/four-card-features.jpg",
+                          "url": "https://four-card-features-design.netlify.app/"
+                        },
+                        {
+                          "id": 7,
+                          "title": "Base Apparel Coming Soon",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/base-apparel-coming-soon.jpg",
+                          "url": "https://base-apparel-coming-soon-design.netlify.app/"
+                        },
+                        {
+                          "id": 8,
+                          "title": "Intro Component With Sign Up Form",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/intro-component-with-sign-up-form.jpg",
+                          "url": "https://intro-component-with-sign-up-form-design.netlify.app/"
+                        },
+                        {
+                          "id": 9,
+                          "title": "Single Price Grid Component Master",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/single-price-grid-component-master.jpg",
+                          "url": "https://single-price-grid-component-master-design.netlify.app/"
+                        },
+                        {
+                          "id": 10,
+                          "title": "Ping Single Column Coming Soon",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/ping-single-column-coming-soon.jpg",
+                          "url": "https://ping-single-column-coming-soon-design.netlify.app/"
+                        },
+                        {
+                          "id": 11,
+                          "title": "Huddle Landing Page With A Single Introduction Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/huddle-landing-page-with-a-single-introductory-page.jpg",
+                          "url": "https://huddle-landing-page-with-a-single-introductory-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 12,
+                          "title": "Testimonial Grid Section",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/testimonial-grid-section.jpg",
+                          "url": "https://testimonial-grid-section-design.netlify.app/"
+                        },
+                        {
+                          "id": 13,
+                          "title": "Fyle Data Storage Component",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/fyle-data-storage-component.jpg",
+                          "url": "https://fyle-data-storage-component-design.netlify.app/"
+                        },
+                        {
+                          "id": 14,
+                          "title": "Social Media Dashboard With Theme Switcher",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/social-media-dashboard-with-theme-switcher.jpg",
+                          "url": "https://social-media-dashboard-with-theme-switcher-design.netlify.app/"
+                        },
+                        {
+                          "id": 15,
+                          "title": "Insure Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/insure-landing-page.jpg",
+                          "url": "https://insure-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 16,
+                          "title": "Pricing Component With Toggle",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/pricing-component-with-toggle.jpg",
+                          "url": "https://pricing-component-with-toggle-design.netlify.app/"
+                        },
+                        {
+                          "id": 17,
+                          "title": "Project Tracking Intro",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/project-tracking-intro.jpg",
+                          "url": "https://project-tracking-intro-design.netlify.app/"
+                        },
+                        {
+                          "id": 18,
+                          "title": "Clipboard Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/clipboard-landing-page.jpg",
+                          "url": "https://clipboard-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 19,
+                          "title": "Huddle Landing Page With Alternating Feature Blocks",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/huddle-landing-page-with-alternating-feature-blocks.jpg",
+                          "url": "https://huddle-landing-page-with-alternating-feature-blocks-design.netlify.app/"
+                        },
+                        {
+                          "id": 20,
+                          "title": "Fylo Dark Theme Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/fylo-dark-theme-landing-page.jpg",
+                          "url": "https://fylo-dark-theme-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 21,
+                          "title": "Fylo Landing Page With Two Column Layout",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/fylo-landing-page-with-two-column-layout.jpg",
+                          "url": "https://fylo-landing-page-with-two-column-layout-design.netlify.app/"
+                        },
+                        {
+                          "id": 22,
+                          "title": "Huddle Landing Page With Curved Sections",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/huddle-landing-page-with-curved-sections.jpg",
+                          "url": "https://fylo-dark-theme-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 23,
+                          "title": "",
+                          "finished":false,
+                          "category": "",
+                          "image": "images/.jpg",
+                          "url": "https://-design.netlify.app/"
+                        },
+                        {
+                          "id": 24,
+                          "title": "TODO App",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/todo-app.jpg",
+                          "url": "https://todo-app-design.netlify.app/"
+                        },
+                        {
+                          "id": 25,
+                          "title": "Room Homepage",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/room-homepage.jpg",
+                          "url": "https://room-homepage-design.netlify.app/"
+                        },
+                        {
+                          "id": 26,
+                          "title": "",
+                          "finished":false,
+                          "category": "",
+                          "image": "images/",
+                          "url": "https://.netlify.app/"
+                        },
+                        {
+                          "id": 27,
+                          "title": "Chat App Css Illustration",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/chat-app-css-illustration.jpg",
+                          "url": "https://chat-app-css-illustration-design.netlify.app/"
+                        },
+                        {
+                          "id": 28,
+                          "title": "Job Listing With Filtering Coding",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/job-listings-with-filtering-coding.jpg",
+                          "url": "https://job-listings-with-filtering-coding-design.netlify.app/"
+                        },
+                        {
+                          "id": 29,
+                          "title": "Easybank Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/easybank-landing-page.jpg",
+                          "url": "https://easybank-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 30,
+                          "title": "Manage Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/manage-landing-page.jpg",
+                          "url": "https://manage-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 31,
+                          "title": "Url Shortening API Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/url-shortening-api-landing-page.jpg",
+                          "url": "https://url-shortening-api-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 32,
+                          "title": "Bookmark Landing Page",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/bookmark-landing-page.jpg",
+                          "url": "https://bookmark-landing-page-design.netlify.app/"
+                        },
+                        {
+                          "id": 33,
+                          "title": "Rock Paper Scissors Game",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/rock-paper-scissors-game.jpg",
+                          "url": "https://rock-paper-scissors-game-design.netlify.app/"
+                        },
+                        {
+                          "id": 34,
+                          "title": "Rest Countries Api With Color Theme Switcher",
+                          "finished":true,
+                          "category": "",
+                          "image": "images/rest-countries-api-with-color-them-switcher.jpg",
+                          "url": "https://rest-countries-api-with-color-them-switcher-design.netlify.app/"
+                        }
+
+                    ] 
+                },
+                {
+                    "id": 2,
+                    "title": "Clone Projects",
+                    "info":"",
+                    "projectslist": [
+                        {
+                            "id": 1,
+                            "title": "Netflix Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/netflix-clone.jpg",
+                            "url": "https://netflix-clone-by-javid.netlify.app/"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Gmail Clone",
+                            "finished":true,
+                            "category": "",
+                            "image": "images/gmail-clone.jpg",
+                            "url": "https://gmail-clone-phi.vercel.app/"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Whatsapp Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/whatsapp-clone.jpg",
+                            "url": "https://whatsapp-clone-murex-nu.vercel.app/"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Twitter Clone",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/twitter-clone.jpg",
+                            "url": "https://twitter-clone-rouge-tau.vercel.app/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Real Life Work",
+                    "info": "",
+                    "projectslist": [
+                        {
+                            "id": 1,
+                            "title": "Road Company",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/road-company.jpg",
+                            "url": "https://qarantstroy.ru"
+                        },
+                        {
+                            "id": 2,
+                            "title": "KreTravel",
+                            "finished": true,
+                            "category": "",
+                            "image": "images/kretravel.jpg",
+                            "url": "https://kretravel.az"
+                        }
+                    ]
+                }
+            ]
+        }
+    } 
+}

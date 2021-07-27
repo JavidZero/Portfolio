@@ -6,7 +6,7 @@
 
 .project {
     width: 100%;
-    min-height: 200px;
+    min-height: 180px;
     max-height: 230px;
     height: auto;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, .2), -2px -2px 3px rgba(0, 0, 0, .2);

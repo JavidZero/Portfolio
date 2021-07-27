@@ -8,8 +8,10 @@ function Project({project}) {
       <div className="project-main">
         <div
           className="project"
-          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/${project.image})` }}
         >
+          <div className="project-image">
+            <img src={project.image} alt=""/>
+          </div>
           <div className="project-info">
             <a href={project.url} target="_blank" rel="noreferrer">
               View Project

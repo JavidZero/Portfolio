@@ -12,9 +12,9 @@ function Portfolio({data}) {
           <>
             {
               <Projects
-                key={data.categories[2].id}
-                projects={data.categories[2]}
-                title={data.categories[2].title}
+                key={data.categories[0].id}
+                projects={data.categories[0]}
+                title={data.categories[0].title}
               />
             }
             {
@@ -26,9 +26,9 @@ function Portfolio({data}) {
             }
             {
               <Projects
-                key={data.categories[0].id}
-                projects={data.categories[0]}
-                title={data.categories[0].title}
+                key={data.categories[2].id}
+                projects={data.categories[2]}
+                title={data.categories[2].title}
               />
             }
             {/*data.categories.map((projects) => (
